@@ -10,6 +10,9 @@ on:
   pull_request:
     branches:
       - main
+    paths:
+      - 'codigo/**'
+      - '.github/workflows/hola-mundo.yml'
 
 jobs: 
   saludar:
