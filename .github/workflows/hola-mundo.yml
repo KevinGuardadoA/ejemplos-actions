@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
   # schedule:
   #   - cron: "*/5 * * * *" #se ejecuta cada 5 minutos
+  #   - cron: "0 5 * * *" #se ejecuta a la 1 de la madrugada
+  # https://crontab.cronhub.io/ expresiones cron
   push:
     branches:
        - main
