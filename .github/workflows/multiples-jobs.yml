@@ -17,7 +17,7 @@ jobs:
         run: echo job 2
 
   job-3:
-    runs-on: windows-lates
+    runs-on: windows-latest
     steps:
       - name: Imprime nombre job
         run: echo job 3
