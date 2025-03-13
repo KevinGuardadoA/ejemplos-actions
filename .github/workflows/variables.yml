@@ -7,7 +7,7 @@ env:
   variable_global: VARIABLE GLOBAL
 
 jobs:
-  job-1
+  job-1:
     runs-on: ubuntu-latest
     env:
       variable_job: VARIABLE JOB
