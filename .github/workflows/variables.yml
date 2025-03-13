@@ -16,5 +16,5 @@ jobs:
       - name: step 1 del job-1
         run: |
           echo el valor de la variable global es $variable_global
-          echo 'otra forma de escribir la variable es: ${{ env.variable_global}} "
-          echo 'tambien podemos definir variables a nivel de un unico job: ${{ env.variable_job}} "
+          echo 'otra forma de escribir la variable es: ${{ env.variable_global}} '
+          echo 'tambien podemos definir variables a nivel de un unico job: ${{ env.variable_job}} '
