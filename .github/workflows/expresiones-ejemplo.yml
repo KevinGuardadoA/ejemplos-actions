@@ -9,10 +9,10 @@ jobs:
       matrix:
         sistema_operativo: [windows-latest, ubuntu-latest, macos-latest]
     name: matriz-unidimencional
-    runs-on: ${{ matrix.matriz-unidimencional}}
+    runs-on: ${{ matrix.sistema_operativo }}
     steps:
       - name: paso solo para Windows
-        if: ${{ matrix.matriz-unidimencional == 'windows-latest'}}
+        if: ${{ matrix.sistema_operativo == 'windows-latest'}}
         run: echo "Esto solo se ejecuta en windows"
       - name: Paso para todos los SOs
         run: echo "paso comun para todos"
